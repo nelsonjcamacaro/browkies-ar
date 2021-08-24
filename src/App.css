@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.main-header{
+  background-color: #1c1c1b;
+  color: #aedbde;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-h1{
+  margin-left: -250px;
+}
+
+.ul-navbar{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.li-navbar{
+  text-decoration: none;
+  margin-left: 100px;
+  color: #aedbde;
+  font-weight: bolder;
+}
+
+
