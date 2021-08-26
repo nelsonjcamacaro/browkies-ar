@@ -47,7 +47,7 @@
 }
 
 .main-h1{
-  margin-left: -250px;
+  margin-right: 650px;
 }
 
 .ul-navbar{
@@ -64,4 +64,18 @@
   font-weight: bolder;
 }
 
+.cart-widget{
+  width: 30px;
+  height: 30px;
+  margin-top: 25px;
+}
 
+.div-itemlistcontainer{
+  display: grid;
+  place-items: center;
+  height: 500px ;
+}
+
+.h1-itemlistcontainer{
+  width: 50%;
+}

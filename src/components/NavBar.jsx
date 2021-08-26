@@ -1,3 +1,4 @@
+import CartWidget from "./CartWidget";
 
 
 
@@ -15,6 +16,7 @@ function NavBar(){
                     <li><a href="#" className="li-navbar">Pedido</a></li>
                 </ul>
             </nav>
+            <CartWidget/>
         </header>)
 }
 
