@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 
 function ItemCount (){
-    const [count, setCount] = useState(0)
+    const [count, setCount] = useState(1)
     const [stock, setStock] = useState(9)
     
     const onAdd = ()=>{
@@ -11,8 +11,8 @@ function ItemCount (){
     }
 
     const onRemove = ()=>{
-        count  < 1 ? setCount (count * 0) : setCount (count- 1)
-        count > 0 ? setStock( stock  + 1 ) : setStock (stock)
+        count  < 2 ? setCount (count) : setCount (count- 1)
+        count > 1 ? setStock( stock  + 1 ) : setStock (stock)
     }
 
     return (
