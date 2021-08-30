@@ -1,12 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/NavBar'
 import ItemListContainer from './components/ItemListContainer';
+import ItemCount from './components/ItemCount';
+
 function App() {
   return (
     <>
       < Navbar />
       < ItemListContainer />
+      < ItemCount />
     </>
   );
 }

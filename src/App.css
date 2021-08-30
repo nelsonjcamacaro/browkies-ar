@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,7 +35,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .main-header{
   background-color: #1c1c1b;
@@ -79,4 +79,25 @@
 .h1-itemlistcontainer{
   width: 50%;
   text-align: center;
+}
+
+.sum-or-rest-Button{
+  background-color: blue;
+  color: white;
+  border-radius: 50%;;
+
+  /* display: flex;
+  justify-content: center; */
+}
+
+.counterButtons{
+  display: flex;
+  justify-content:center;
+  /* border-style: solid; */
+  /* width: 50%; */
+  /* height: 200px; */
+}
+
+.margins{
+  margin:10px;
 }
