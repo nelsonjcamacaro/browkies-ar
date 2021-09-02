@@ -101,3 +101,25 @@
 .margins{
   margin:10px;
 }
+
+.img-card{
+  width: 200px;
+  height: 250px;
+  box-shadow: 0px 10px 10px -6px black;
+
+}
+
+.items{
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-left: 100px; */
+  /* width: 40%; */
+}
+
+.item-card{
+  margin-left: 150px;
+  /* border-radius: 100%; */
+}

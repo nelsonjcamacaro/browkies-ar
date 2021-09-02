@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "tittle": "Cookies Clasicas",
+        "price": " 2$",
+        "picture": "./assets/img/cookiesClasicas.jpeg"
+    },
+    {
+        "id": "2",
+        "tittle": "Cookies Rellenas",
+        "price": " 2$",
+        "picture": "./assets/img/cookiesRellenas.jpeg"
+    },
+    {
+        "id": "3",
+        "tittle": "Brownies",
+        "price": "4$",
+        "picture": "./assets/img/brownies.jpeg"
+    },
+    {
+        "id": "4",
+        "tittle": "Duo Box",
+        "price": "8$",
+        "picture": "./assets/img/duoBox.jpeg"
+    }
+]
