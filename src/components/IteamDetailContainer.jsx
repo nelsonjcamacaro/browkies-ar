@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react"
 // import { getProduct } from "/promises";
 import ItemDetail from "./ItemDetail";
+import CookiesClasicas from "../assets/img/cookiesClasicas.jpeg"
+import CookiesRellenas from "../assets/img/cookiesRellenas.jpeg"
+import Brownies from "../assets/img/brownies.jpeg"
+import DuoBox from "../assets/img/duoBox.jpeg"
 
 function ItemDetailContainer() {
 
@@ -12,7 +16,9 @@ function ItemDetailContainer() {
             .then (res=> res.json)
             .then (resp=>{
                 setProduct(resp)
-                setLoading(false)})
+                setLoading(false)
+                console.log("dentro del fecth");
+                console.log(resp);})
     }, [])
 
     console.log(product);

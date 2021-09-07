@@ -1,4 +1,7 @@
-
+import CookiesClasicas from "../assets/img/cookiesClasicas.jpeg"
+import CookiesRellenas from "../assets/img/cookiesRellenas.jpeg"
+import Brownies from "../assets/img/brownies.jpeg"
+import DuoBox from "../assets/img/duoBox.jpeg"
 
 function ItemDetail( props ) {
     const { product} = props
@@ -7,12 +10,10 @@ function ItemDetail( props ) {
             <label>Soy el detalle</label>
             <div className= '...'>
                 <div className="...">
-                    <label>{product.name}</label>
+                    <label>{product.tittle}</label>
                 </div>
                 <div className="...">
-                    <img  src={product.url} alt="imgProduct" className="..." />
-                    <br/>
-                    <label>{product.descripcion}</label>
+                    <img  src={product.picture} alt="imgProduct" className="..." />
                 </div>
                 <div className="...">
                     <label>{product.price}</label>
